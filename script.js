@@ -1,6 +1,12 @@
-const blogSection = document.getElementById('blog-section');
-blogSection.style.padding = "50px 10px 20px 30px";
+const blogSection = document.getElementsByClassName('blog-area');
+blogSection.style.padding = "100px 10px 20px 30px";
+blogSection.style.display = 'flex'
 
-document.getElementsByClassName('heading').style.fontSize = "32px";
-alert("Hello! I am an alert box!!");
+const image = document.getElementsByTagName('img');
+image.style.width = '300px';
+
+const headingText = document.getElementsByClassName('heading')
+headingText.style.fontSize = '32px';
+headingText.style.color = 'purple'
+
 
